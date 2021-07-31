@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login web độc</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="login.css" rel="stylesheet" type="text/css" />
+</head>
+
+<script type="text/javascript">
+    function display(form) {
+        if (form.password.value == "vinhhuyenhuyenthaonhu") {
+            location = "intro.html"
+        } else {
+            alert("Nhập đúng họ tên của mình nào!")
+        }
+    }
+</script>
+
+<body>
+    <header>
+        <div class="container">
+            Hello cô giáo ^_^
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="login-form">
+                <form action="" method="post">
+                    <h1>Please Log in</h1>
+                    <div class="input-box">
+                        <i></i>
+                        <input type="text" name="username" placeholder="Ô này để trống nhé!">
+                    </div>
+                    <div class="input-box">
+                        <i></i>
+                        <input type="password" name="password" placeholder="Nhập fullname ở đây nè!">
+                    </div>
+                    <div class="btn-box">
+                        <input type="button" value="Get HOT Link" onClick="display(this.form)" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            HINT: Type your full name without uppercase and space to Loggin. :>
+        </div>
+    </footer>
+</body>
+
+</html>

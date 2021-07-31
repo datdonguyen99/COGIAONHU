@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intro</title>
+</head>
+
+<style>
+    div.cogiao{
+        text-align: center;
+        background-color: rgb(237, 241, 229);
+    }
+</style>
+
+<body>
+    <div class="cogiao">
+        <h2>Cô giáo ưi! Anh có chuyện này mún nói với cô giáo...</h2>
+        <p id="show">Cô giáo có mún nghe hong? :></p>
+        <input type="button" onclick="run()" value="Click me!" id="action" />
+    </div>
+
+    <script language="javascript">
+        var i = 0;
+        function run() {
+            i++;
+            var htmlObj = document.getElementById('show');
+
+            if (i == 1) {
+                htmlObj.innerHTML += "<h3>Người ta nói á...</h3>";
+            }
+            else if (i == 2) {
+                htmlObj.innerHTML += "<h3>Đêm không trăng, đêm buồn vô tận..</h3>";
+            }
+            else if (i == 3) {
+                htmlObj.innerHTML += "<h3>Bến không đò, lỡ bước sang ngang...</h3>";
+            }
+            else if (i == 4) {
+                htmlObj.innerHTML += "<h3>Đời không yêu..., là một bó hoa tàn.</h3>";
+            }
+            else if (i == 5) {
+                htmlObj.innerHTML += "<h3>Yêu không thành, là muôn vàn đau khổ..</h3>";
+            }
+            else if (i == 6) {
+                htmlObj.innerHTML += "<h3>Năm tháng trôi đi, năm tháng buồn.</h3>";
+            }
+            else if (i == 7) {
+                htmlObj.innerHTML += "<h3>Nhìn lại năm tháng, lệ càng tuông..</h3>";
+            }
+            else if (i == 8) {
+                htmlObj.innerHTML += "<h3>Có ai đi ngược dòng thời gian.</h3>";
+            }
+            else if (i == 9) {
+                htmlObj.innerHTML += "<h3>Xin tìm lại giùm tôi - một mối tình.</h3>";
+            }
+            else if (i == 10) {
+                htmlObj.innerHTML += "<h3>...............................</h3>";
+            }
+            else if (i == 11) {
+                htmlObj.innerHTML += "<h3>Trăng ơi, trăng ở trên cao</h3>";
+            }
+            else if (i == 12) {
+                htmlObj.innerHTML += "<h3>Trăng ơi có biết vì sao toy pùn? :></h3>";
+            }
+            else if (i == 13) {
+                htmlObj.innerHTML += "<h3>Nước ơi! nước ở dưới nguồn</h3>";
+            }
+            else if (i == 14) {
+                htmlObj.innerHTML += "<h3>Nước ơi có biết toy pùn vì ai ?...</h3>";
+            }
+            else if (i == 15) {
+                htmlObj.innerHTML += "<h3>Cô giáo biết toy pùn vì ai hong ạ? :v</h3>";
+            }
+            else if(i == 16){
+                location = "iunhiu.html";
+            }
+            else{
+                alert("Bug ngoài dự đoán!")
+            }
+        }
+    </script>
+
+</body>
+
+</html>
