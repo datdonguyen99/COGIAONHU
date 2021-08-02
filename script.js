@@ -76,10 +76,9 @@ var love = setInterval(function () {
   });
 }, 500);
 
-
-function yesClick() {
-  alert("Phải iu nhìu vào nhé! :))");
-}
+// function yesClick() {
+// alert("Phải iu nhìu vào nhé! :))");
+// }
 
 function noHover() {
   var x = Math.floor(Math.random() * window.innerWidth);
