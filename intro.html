@@ -9,17 +9,23 @@
 </head>
 
 <style>
-    div.cogiao{
+    div.cogiao {
         text-align: center;
         background-color: rgb(237, 241, 229);
+
+    }
+
+    body {
+        background-image: url("img/longden.jpeg");
     }
 </style>
 
 <body>
     <div class="cogiao">
-        <h2>Cô giáo ưi! Anh có chuyện này mún nói với cô giáo...</h2>
-        <p id="show">Cô giáo có mún nghe hong? :></p>
-        <input type="button" onclick="run()" value="Click me!" id="action" />
+        <h2>Cô giáo ưi! Anh mún gửi lời xin lũi đến cô giáo...</h2>
+        <p id="show">Cô giáo có chịu hong nè! :></p>
+        <input type="button" onclick="run()" value="Hỏng chịu" id="action" />
+        <input type="button" value="Chịu nha" id="action" />
     </div>
 
     <script language="javascript">
@@ -29,54 +35,63 @@
             var htmlObj = document.getElementById('show');
 
             if (i == 1) {
-                htmlObj.innerHTML += "<h3>Người ta nói á...</h3>";
+                htmlObj.innerHTML += "<h3>Nói chứ nếu cô giáo đã đọc được dòng này thì...</h3>";
             }
             else if (i == 2) {
-                htmlObj.innerHTML += "<h3>Đêm không trăng, đêm buồn vô tận..</h3>";
+                htmlObj.innerHTML += "<h3>... Vậy hoi cô giáo cũng biết ròi ha</h3>";
             }
             else if (i == 3) {
-                htmlObj.innerHTML += "<h3>Bến không đò, lỡ bước sang ngang...</h3>";
+                htmlObj.innerHTML += "<h3>Trung thu trăng sáng như gương</h3>";
             }
             else if (i == 4) {
-                htmlObj.innerHTML += "<h3>Đời không yêu..., là một bó hoa tàn.</h3>";
+                htmlObj.innerHTML += "<h3>Tần ngần thưởng nguyệt, vấn vương điều gì?..</h3>";
             }
             else if (i == 5) {
-                htmlObj.innerHTML += "<h3>Yêu không thành, là muôn vàn đau khổ..</h3>";
+                htmlObj.innerHTML += "<h3>Thế gian tình ái là chi?...</h3>";
             }
             else if (i == 6) {
-                htmlObj.innerHTML += "<h3>Năm tháng trôi đi, năm tháng buồn.</h3>";
+                htmlObj.innerHTML += "<h3>Khổ đau, ngang trái, chia li đau lòng</h3>";
             }
             else if (i == 7) {
-                htmlObj.innerHTML += "<h3>Nhìn lại năm tháng, lệ càng tuông..</h3>";
+                htmlObj.innerHTML += "<h3>Để ròi giận hờn hư không</h3>";
             }
             else if (i == 8) {
-                htmlObj.innerHTML += "<h3>Có ai đi ngược dòng thời gian.</h3>";
+                htmlObj.innerHTML += "<h3>Để ai lẻ bóng?.. chơi vơi một mình</h3>";
             }
             else if (i == 9) {
-                htmlObj.innerHTML += "<h3>Xin tìm lại giùm tôi - một mối tình.</h3>";
+                htmlObj.innerHTML += "<h3>Có chăng nặng một chữ tình?</h3>";
             }
             else if (i == 10) {
-                htmlObj.innerHTML += "<h3>...............................</h3>";
+                htmlObj.innerHTML += "<h3>Đêm đêm vẫn giữ bóng hình của ai..?</h3>";
             }
             else if (i == 11) {
-                htmlObj.innerHTML += "<h3>Trăng ơi, trăng ở trên cao</h3>";
+                htmlObj.innerHTML += "<h3>Giận mình sao chẳng biết sai!! :></h3>";
             }
             else if (i == 12) {
-                htmlObj.innerHTML += "<h3>Trăng ơi có biết vì sao toy pùn? :></h3>";
+                htmlObj.innerHTML += "<h3>Mà còn ngồi đó, đóng vai giả tạo</h3>";
             }
             else if (i == 13) {
-                htmlObj.innerHTML += "<h3>Nước ơi! nước ở dưới nguồn</h3>";
+                htmlObj.innerHTML += "<h3>.... -_- .... -_- ..... -_- .....</h3>";
             }
             else if (i == 14) {
-                htmlObj.innerHTML += "<h3>Nước ơi có biết toy pùn vì ai ?...</h3>";
+                htmlObj.innerHTML += "<h3>Trăng ơi! trăng ở trên cao.</h3>";
             }
             else if (i == 15) {
+                htmlObj.innerHTML += "<h3>Trăng ơi có biết vì sao toy pùn?</h3>";
+            }
+            else if (i == 16) {
+                htmlObj.innerHTML += "<h3>Nước ơi! nước ở dưới nguồn..</h3>";
+            }
+            else if (i == 17) {
+                htmlObj.innerHTML += "<h3>Nước ơi có biết toy pùn vì ai ?...</h3>";
+            }
+            else if (i == 18) {
                 htmlObj.innerHTML += "<h3>Cô giáo biết toy pùn vì ai hong ạ? :v</h3>";
             }
-            else if(i == 16){
+            else if (i == 19) {
                 location = "iunhiu.html";
             }
-            else{
+            else {
                 alert("Bug ngoài dự đoán!")
             }
         }
